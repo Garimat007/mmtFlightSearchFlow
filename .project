@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>MakeMyTripProject2</name>
+=======
+	<name>MakeMyTripProject</name>
+>>>>>>> 6f2f6e1 (added MMT Project)
 	<comment></comment>
 	<projects>
 	</projects>
