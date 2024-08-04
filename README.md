@@ -11,31 +11,31 @@ flightPageNavigation2
 # HomePage.java
 The HomePage class contains methods to interact with the elements on the home page of the MakeMyTrip flights section.
 
-1. Constructor: Initializes WebDriver and WebDriverWait.
-2. closePromotionModal(): Closes the promotional modal that appears on the home page.
-3. selectFromCity(): Selects "Bangalore" as the departure city.
-4. selectInternationalTrip(): Selects the option for planning an international holiday.
-5. selectRoundTrip(): Changes the trip type from "One Way" to "Round Trip".
-6. setToCity(): Sets the destination city to "Dubai".
-7. selectDatesAndDuration(): Clicks on the "DATES&DURATION" option to set travel dates.
+- Constructor: Initializes WebDriver and WebDriverWait.
+- closePromotionModal(): Closes the promotional modal that appears on the home page.
+- selectFromCity(): Selects "Bangalore" as the departure city.
+- selectInternationalTrip(): Selects the option for planning an international holiday.
+- selectRoundTrip(): Changes the trip type from "One Way" to "Round Trip".
+- setToCity(): Sets the destination city to "Dubai".
+- selectDatesAndDuration(): Clicks on the "DATES&DURATION" option to set travel dates.
 
 # FlightSearchPage.java
 The FlightSearchPage class contains methods to interact with the elements on the flight search page where the user selects travel dates and duration.
 
 - Constructor: Initializes WebDriver and WebDriverWait.
-selectDecember2024(): Selects "December 2024" as the travel month.
-adjustTripDuration(): Adjusts the trip duration slider to 10 days using drag-and-drop action.
-applyDates(): Clicks the "Apply" button to apply the selected dates.
-initiateSearch(): Clicks the "Search" button to start the search for flights.
+- selectDecember2024(): Selects "December 2024" as the travel month.
+- adjustTripDuration(): Adjusts the trip duration slider to 10 days using drag-and-drop action.
+- applyDates(): Clicks the "Apply" button to apply the selected dates.
+- initiateSearch(): Clicks the "Search" button to start the search for flights.
 
 # FlightResultsPage.java
 The FlightResultsPage class contains methods to interact with the elements on the flight results page where the user sees the available flights and prices.
 
-Constructor: Initializes WebDriver and WebDriverWait.
-getTripPriceList(): Returns a list of web elements representing the prices for different dates.
-getTripDateList(): Returns a list of web elements representing the dates for the corresponding prices.
-selectDate(): Selects a specific date for flight availability.
-areFlightsAvailable(): Checks if flights are available for the selected date.
+- Constructor: Initializes WebDriver and WebDriverWait.
+- getTripPriceList(): Returns a list of web elements representing the prices for different dates.
+- getTripDateList(): Returns a list of web elements representing the dates for the corresponding prices.
+- selectDate(): Selects a specific date for flight availability.
+- areFlightsAvailable(): Checks if flights are available for the selected date.
 
 # flightPageNavigation.java
 The flightPageNavigation2 class is the main class that drives the overall process of navigating through the MakeMyTrip website to find flight prices and dates.
