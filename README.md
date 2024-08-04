@@ -11,13 +11,13 @@ flightPageNavigation2
 # HomePage.java
 The HomePage class contains methods to interact with the elements on the home page of the MakeMyTrip flights section.
 
-Constructor: Initializes WebDriver and WebDriverWait.
-closePromotionModal(): Closes the promotional modal that appears on the home page.
-selectFromCity(): Selects "Bangalore" as the departure city.
-selectInternationalTrip(): Selects the option for planning an international holiday.
-selectRoundTrip(): Changes the trip type from "One Way" to "Round Trip".
-setToCity(): Sets the destination city to "Dubai".
-selectDatesAndDuration(): Clicks on the "DATES&DURATION" option to set travel dates.
+1. Constructor: Initializes WebDriver and WebDriverWait.
+2. closePromotionModal(): Closes the promotional modal that appears on the home page.
+3. selectFromCity(): Selects "Bangalore" as the departure city.
+4. selectInternationalTrip(): Selects the option for planning an international holiday.
+5. selectRoundTrip(): Changes the trip type from "One Way" to "Round Trip".
+6. setToCity(): Sets the destination city to "Dubai".
+7. selectDatesAndDuration(): Clicks on the "DATES&DURATION" option to set travel dates.
 
 # FlightSearchPage.java
 The FlightSearchPage class contains methods to interact with the elements on the flight search page where the user selects travel dates and duration.
