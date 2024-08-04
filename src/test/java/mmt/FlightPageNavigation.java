@@ -1,5 +1,8 @@
 package mmt;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import java.time.DayOfWeek;
 import java.time.Duration;
 import java.time.LocalDate;
@@ -14,7 +17,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
 
 public class FlightPageNavigation {
 
@@ -30,7 +32,8 @@ public class FlightPageNavigation {
         }
     }
 
-    @BeforeClass
+    @BeforeMethod
+	@BeforeClass
     public void setUp() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -164,7 +167,8 @@ public class FlightPageNavigation {
         }
     }
 
-    @AfterClass
+    @AfterMethod
+	@AfterClass
     public void tearDown() {
         if (driver != null) {
             driver.quit();
