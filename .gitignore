@@ -2,4 +2,9 @@
 <<<<<<< HEAD
 =======
 /target/
+<<<<<<< HEAD
 >>>>>>> 6f2f6e1 (added MMT Project)
+=======
+.DS_Store
+target/
+>>>>>>> b8b5882 (Update .gitignore to ignore .DS_Store and target/)
