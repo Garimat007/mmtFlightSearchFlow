@@ -2,10 +2,11 @@
 The code uses the Page Object Model (POM) design pattern. POM helps in creating an object repository for web elements, making the code more maintainable, reusable, and readable.
 
 # Classes and Their Responsibilities
-HomePage
+```HomePage
 FlightSearchPage
 FlightResultsPage
 flightPageNavigation2
+```
 
 # HomePage.java
 The HomePage class contains methods to interact with the elements on the home page of the MakeMyTrip flights section.
