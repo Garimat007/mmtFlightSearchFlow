@@ -22,7 +22,7 @@ The HomePage class contains methods to interact with the elements on the home pa
 # FlightSearchPage.java
 The FlightSearchPage class contains methods to interact with the elements on the flight search page where the user selects travel dates and duration.
 
-Constructor: Initializes WebDriver and WebDriverWait.
+- Constructor: Initializes WebDriver and WebDriverWait.
 selectDecember2024(): Selects "December 2024" as the travel month.
 adjustTripDuration(): Adjusts the trip duration slider to 10 days using drag-and-drop action.
 applyDates(): Clicks the "Apply" button to apply the selected dates.
