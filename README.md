@@ -40,40 +40,40 @@ The FlightResultsPage class contains methods to interact with the elements on th
 # flightPageNavigation.java
 The flightPageNavigation2 class is the main class that drives the overall process of navigating through the MakeMyTrip website to find flight prices and dates.
 
-calculateMedian(): A utility method to calculate the median of a list of integers.
-main(): The main method that orchestrates the entire workflow using the HomePage, FlightSearchPage, and FlightResultsPage classes.
+- calculateMedian(): A utility method to calculate the median of a list of integers.
+- main(): The main method that orchestrates the entire workflow using the HomePage, FlightSearchPage, and FlightResultsPage classes.
 
 # Workflow in Main Method
 Setup WebDriver:
 
-Initializes WebDriver and maximizes the browser window.
-Sets timeouts for different operations.
-Navigates to the MakeMyTrip flights page.
-Home Page Interactions:
+- Initializes WebDriver and maximizes the browser window.
+- Sets timeouts for different operations.
+- Navigates to the MakeMyTrip flights page.
+- Home Page Interactions:
 
-Creates an instance of HomePage.
-Closes the promotional modal.
-Selects "Bangalore" as the departure city.
-Selects the international trip option.
-Changes the trip type to "Round Trip".
-Sets the destination city to "Dubai".
-Opens the "DATES&DURATION" option.
-Flight Search Page Interactions:
+- Creates an instance of HomePage.
+- Closes the promotional modal.
+- Selects "Bangalore" as the departure city.
+- Selects the international trip option.
+- Changes the trip type to "Round Trip".
+- Sets the destination city to "Dubai".
+- Opens the "DATES&DURATION" option.
+- Flight Search Page Interactions:
 
-Creates an instance of FlightSearchPage.
-Selects "December 2024" as the travel month.
-Adjusts the trip duration to 10 days.
-Applies the selected dates.
-Initiates the flight search.
-Flight Results Page Interactions:
+- Creates an instance of FlightSearchPage.
+- Selects "December 2024" as the travel month.
+- Adjusts the trip duration to 10 days.
+- Applies the selected dates.
+- Initiates the flight search.
+- Flight Results Page Interactions:
 
-Creates an instance of FlightResultsPage.
-Retrieves the lists of trip prices and dates.
-Processes the prices and dates to calculate the median price and find dates with prices lower than the median.
-Identifies weekend dates and the date with the lowest price.
-Selects a date based on certain criteria (weekend dates or lowest price date).
-Checks if flights are available for the selected date.
+- Creates an instance of FlightResultsPage.
+- Retrieves the lists of trip prices and dates.
+- Processes the prices and dates to calculate the median price and find dates with prices lower than the median.
+- Identifies weekend dates and the date with the lowest price.
+- Selects a date based on certain criteria (weekend dates or lowest price date).
+- Checks if flights are available for the selected date.
 
 Cleanup:
 
-Closes the browser
+- Closes the browser
