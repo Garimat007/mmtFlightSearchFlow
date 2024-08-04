@@ -36,7 +36,7 @@ getTripDateList(): Returns a list of web elements representing the dates for the
 selectDate(): Selects a specific date for flight availability.
 areFlightsAvailable(): Checks if flights are available for the selected date.
 
-# flightPageNavigation2.java
+# flightPageNavigation.java
 The flightPageNavigation2 class is the main class that drives the overall process of navigating through the MakeMyTrip website to find flight prices and dates.
 
 calculateMedian(): A utility method to calculate the median of a list of integers.
