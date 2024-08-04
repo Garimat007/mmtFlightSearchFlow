@@ -1,4 +1,5 @@
 # Overview
+The given code is a Selenium-based test script for navigating and testing the flight search functionality on the MakeMyTrip website. It follows a structured approach using the TestNG framework for organizing setup, test execution, and teardown processes.
 The code uses the Page Object Model (POM) design pattern. POM helps in creating an object repository for web elements, making the code more maintainable, reusable, and readable.
 
 # Classes and Their Responsibilities
