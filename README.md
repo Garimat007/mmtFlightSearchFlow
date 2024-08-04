@@ -51,7 +51,9 @@ Setup WebDriver:
 - Initializes WebDriver and maximizes the browser window.
 - Sets timeouts for different operations.
 - Navigates to the MakeMyTrip flights page.
-- Home Page Interactions:
+
+  
+Home Page Interactions:
 
 - Creates an instance of HomePage.
 - Closes the promotional modal.
@@ -60,14 +62,18 @@ Setup WebDriver:
 - Changes the trip type to "Round Trip".
 - Sets the destination city to "Dubai".
 - Opens the "DATES&DURATION" option.
-- Flight Search Page Interactions:
+
+  
+Flight Search Page Interactions:
 
 - Creates an instance of FlightSearchPage.
 - Selects "December 2024" as the travel month.
 - Adjusts the trip duration to 10 days.
 - Applies the selected dates.
 - Initiates the flight search.
-- Flight Results Page Interactions:
+
+
+Flight Results Page Interactions:
 
 - Creates an instance of FlightResultsPage.
 - Retrieves the lists of trip prices and dates.
