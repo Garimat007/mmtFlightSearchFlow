@@ -1,8 +1,8 @@
 package mmt;
 
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import java.time.DayOfWeek;
 import java.time.Duration;
 import java.time.LocalDate;
@@ -15,8 +15,7 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class FlightPageNavigation {
 
@@ -32,10 +31,18 @@ public class FlightPageNavigation {
         }
     }
 
-    @BeforeMethod
-	@BeforeClass
-    public void setUp() {
-        driver = new ChromeDriver();
+    
+	@BeforeTest
+	
+    public void setUp(String browserName) {
+		System.out.println("BrowserName is: " +browserName);
+			if(browserName.equalsIgnoreCase("chrome")) {
+				driver = new ChromeDriver();
+			}
+			if(browserName.equalsIgnoreCase("firefox")) {
+				driver = new FirefoxDriver();
+			}
+		
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(5));
@@ -167,8 +174,8 @@ public class FlightPageNavigation {
         }
     }
 
-    @AfterMethod
-	@AfterClass
+    
+	@AfterTest
     public void tearDown() {
         if (driver != null) {
             driver.quit();

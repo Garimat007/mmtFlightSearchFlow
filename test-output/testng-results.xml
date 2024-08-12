@@ -2,65 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  <suite started-at="2024-08-04T03:26:37 IST" name="Default suite" finished-at="2024-08-04T03:26:46 IST" duration-ms="9382">
+  <suite started-at="2024-08-07T10:02:00 IST" name="Default suite" finished-at="2024-08-07T10:02:11 IST" duration-ms="11098">
     <groups>
     </groups>
-    <test started-at="2024-08-04T03:26:37 IST" name="Default test" finished-at="2024-08-04T03:26:46 IST" duration-ms="9382">
+    <test started-at="2024-08-07T10:02:00 IST" name="Default test" finished-at="2024-08-07T10:02:11 IST" duration-ms="11098">
       <class name="mmt.FlightPageNavigation">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:mmt.FlightPageNavigation@6f15d60e]" started-at="2024-08-04T03:26:37 IST" name="setUp" finished-at="2024-08-04T03:26:38 IST" duration-ms="859" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mmt.FlightPageNavigation@6f15d60e]" started-at="2024-08-07T10:02:00 IST" name="setUp" finished-at="2024-08-07T10:02:01 IST" duration-ms="1219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testFlightPageNavigation()[pri:0, instance:mmt.FlightPageNavigation@6f15d60e]" started-at="2024-08-04T03:26:38 IST" name="testFlightPageNavigation" finished-at="2024-08-04T03:26:46 IST" duration-ms="8361" status="PASS">
+        <test-method signature="testFlightPageNavigation()[pri:0, instance:mmt.FlightPageNavigation@6f15d60e]" started-at="2024-08-07T10:02:01 IST" name="testFlightPageNavigation" finished-at="2024-08-07T10:02:11 IST" duration-ms="9629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFlightPageNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mmt.FlightPageNavigation@6f15d60e]" started-at="2024-08-04T03:26:46 IST" name="tearDown" finished-at="2024-08-04T03:26:46 IST" duration-ms="126" status="PASS">
-=======
-  <suite started-at="2024-08-04T01:42:37 IST" name="Default suite" finished-at="2024-08-04T01:42:46 IST" duration-ms="8997">
-=======
-  <suite started-at="2024-08-04T14:00:13 IST" name="Suite" finished-at="2024-08-04T14:00:22 IST" duration-ms="9449">
->>>>>>> 8782eb6 (Second commit)
-=======
-  <suite started-at="2024-08-04T23:43:25 IST" name="Default suite" finished-at="2024-08-04T23:43:36 IST" duration-ms="11035">
->>>>>>> 490c29c (changed pom)
-    <groups>
-    </groups>
-    <test started-at="2024-08-04T23:43:25 IST" name="Default test" finished-at="2024-08-04T23:43:36 IST" duration-ms="11035">
-      <class name="mmt.FlightPageNavigation">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:mmt.FlightPageNavigation@4f0f2942]" started-at="2024-08-04T23:43:25 IST" name="setUp" finished-at="2024-08-04T23:43:27 IST" duration-ms="1831" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:mmt.FlightPageNavigation@4f0f2942]" started-at="2024-08-04T23:43:27 IST" name="setUp" finished-at="2024-08-04T23:43:28 IST" duration-ms="966" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testFlightPageNavigation()[pri:0, instance:mmt.FlightPageNavigation@4f0f2942]" started-at="2024-08-04T23:43:28 IST" name="testFlightPageNavigation" finished-at="2024-08-04T23:43:36 IST" duration-ms="8062" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFlightPageNavigation -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mmt.FlightPageNavigation@6f15d60e]" started-at="2024-08-04T01:42:46 IST" name="tearDown" finished-at="2024-08-04T01:42:46 IST" duration-ms="130" status="PASS">
->>>>>>> 6f2f6e1 (added MMT Project)
-=======
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mmt.FlightPageNavigation@4f0f2942]" started-at="2024-08-04T14:00:22 IST" name="tearDown" finished-at="2024-08-04T14:00:22 IST" duration-ms="129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mmt.FlightPageNavigation@4f0f2942]" started-at="2024-08-04T14:00:22 IST" name="tearDown" finished-at="2024-08-04T14:00:22 IST" duration-ms="1" status="PASS">
->>>>>>> 8782eb6 (Second commit)
-=======
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mmt.FlightPageNavigation@4f0f2942]" started-at="2024-08-04T23:43:36 IST" name="tearDown" finished-at="2024-08-04T23:43:36 IST" duration-ms="131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mmt.FlightPageNavigation@4f0f2942]" started-at="2024-08-04T23:43:36 IST" name="tearDown" finished-at="2024-08-04T23:43:36 IST" duration-ms="0" status="PASS">
->>>>>>> 490c29c (changed pom)
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mmt.FlightPageNavigation@6f15d60e]" started-at="2024-08-07T10:02:11 IST" name="tearDown" finished-at="2024-08-07T10:02:11 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
